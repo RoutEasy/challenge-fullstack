@@ -1,10 +1,12 @@
 # Challenge para desenvolvedor Full Stack
 
-Objetivo deste desafio é avaliarmos o seu domínio em desenvolvimento fullstack, ou seja, sua organização, estilo e boas práticas com o código, criação de APIs Restfull, conhecimento dos frameworks e tecnologias utilizadas.
+Objetivo deste desafio é avaliarmos o seu domínio em desenvolvimento fullstack, ou seja, sua organização, boas práticas com o código, criação e consumo de APIs Restfull, conhecimento dos frameworks e tecnologias utilizadas.
+
+Um layout final bem elaborado e desenhado aponta para um diferencial seu, mas não é necessário se preocupar muito com o design. Afinal, não estamos buscando um designer para essa vaga! 
 
 ## Regras
 
-1. Todo o seu código deve ser disponibilizado num repositório público ou privado em seu github ou bitbucket pessoal. Envie o link para william.kennedy@routeasy.com.br;
+1. Todo o seu código deve ser disponibilizado num repositório público ou privado em seu github ou bitbucket pessoal. Envie o link para william.kennedy@routeasy.com.br no prazo de 3 dias após o recebimento deste desafio;
 2. Desenvolver o projeto utilizando: 
     - MEAN Stack
     - [Mongoose](http://mongoosejs.com) para modelagem dos dados a serem gravados no banco
@@ -48,7 +50,7 @@ A requisição GET para /deliveries deve trazer um json com as informações das
 
 #### DELETE /deliveries
 
-Há um botão na tabela para excluir a delivery. Ele deverá remover o cliente tanto do banco quanto do mapa/tabela.
+Há um botão na tabela para excluir a delivery. Ele deverá remover todos os clientes tanto do banco quanto do mapa/tabela.
 
 
 ### Algumas dicas e observações
