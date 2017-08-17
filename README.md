@@ -6,17 +6,17 @@ Objetivo deste desafio é avaliarmos o seu domínio em desenvolvimento fullstack
 
 1. Todo o seu código deve ser disponibilizado num repositório público ou privado em seu github ou bitbucket pessoal. Envie o link para william.kennedy@routeasy.com.br;
 2. Desenvolver o projeto utilizando: 
-    - MEAN Stack (pode ser um fork do [MEAN.js](https://github.com/meanjs/mean))
-    - Mongoose para modelagem dos dados a serem gravados no banco
+    - MEAN Stack
+    - [Mongoose](http://mongoosejs.com) para modelagem dos dados a serem gravados no banco
     - HTML e CSS (ou algum pré-processador)
-    - Google Geocode API
+    - [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/intro?hl=pt-br)
     - [Leaflet](http://leafletjs.com/) para manipulação do mapa. O mapa a ser utilizado pode ser qualquer um (Google, Mapbox, OSM, etc).
 
 
 ## O Desafio
 
 Este é o layout que deverá ser produzido:
-![layout](layout-challenge.png)
+![layout](challenge.png)
 
 ## Especificação das funcionalidades
 
@@ -40,7 +40,7 @@ Você deve fazer um cadastro de entregas, que ter os seguintes campos:
         - Longitude
 
 Estes dados devem ser salvos numa collection _deliveries_ do Mongo.
-Note que no formulário há apenas um campo para colocar o endereço. Isso se deve ao fato de que o usuário deverá preencher apenas uma linha de endereço. Ao clicar em **Salvar**, os dados devem ser enviados à API do Google para buscar as informações de localização, incorporados ao objeto da delivery e salvos no banco.
+Note que no formulário há apenas um campo para colocar o endereço. Isso se deve ao fato de que o usuário deverá preencher apenas uma linha de endereço. Ao clicar em **Buscar**, os dados deste campo devem ser enviados à API do Google para buscar as informações de localização e incorporados ao objeto da delivery. Neste ponto, os campos de latitude e longitude devem ser preenchidos, mas devem ficar como _disabled_. Ao clicar em **Salvar**, salva os dados no banco, limpa o formulário e atualiza o mapa e a tabela.
 
 #### GET /deliveries
 
