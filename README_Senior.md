@@ -16,14 +16,16 @@ We suggest any integrated solution on the Challenge that will lever its sophisti
     > Authenticate using a microservice. You **can not** use an entire 3rd party API like Facebook™, Google™ etc., but you can use encryption libraries and external dependencies as you wish.
 - Queue
     > Deliver a queue to ensure all requests reach the OrderApi from your Challenge. Persist it anywhere you want, in-memory, NoSQL database etc.
-- Implement the Workflow feature as a microservice, and if you do so we will consider it as two features.
+- Implement the [Workflow feature](https://github.com/RoutEasy/challenge-fullstack/blob/master/README_Senior.md#4-workflow-engine) as a microservice, and if you do so we will consider it as two features.
 - Be creative!
     > Improve your Challenge with any feature you think that will surprise us. Be aware that we are going to be tough in your evaluation. Ensure us that you will show what you are capable of.
 ### 4. Workflow engine
 > Workflows are very present in our day-to-day. Statuses gives the user feedback on what is happening and helps manage actions to ensure that the operation succeeds.
 Show us a nice and S.O.L.I.D. 'orders' workflow. Implement the following statuses to the 'orders' and display it to the end user:
+```
 - On Hold -> The order is waiting to be delivered
 - On Route -> The order is going to the destination
 - Checked-in -> The order has arrived
 - Completed -> The order has been delivered!
-The user needs to be able to execute actions to change the order's next status. You should implement an automated change to status to simulate our current application and the interactions between our mobile and web app. Those actions can occur randomly or each minute. The statuses screen should be updated with those actions.
+```
+> The user needs to be able to execute actions to change the order's next status. You should implement an automated change to status to simulate our current application and the interactions between our mobile and web app. Those actions can occur randomly or each minute. The statuses screen should be updated with those actions.
