@@ -8,7 +8,7 @@ Um layout final bem elaborado e desenhado aponta para um diferencial seu, mas n�
 
 1. Todo o seu código deve ser disponibilizado num repositório público ou privado em seu github ou bitbucket pessoal. Envie o link para william.kennedy@routeasy.com.br no prazo de 3 dias após o recebimento deste desafio;
 2. Desenvolver o projeto utilizando: 
-    - MEAN Stack (com AngularJS 1.x)
+    - MERN Stack (MongoDB, Express.js, React.js e Node.js)
     - [Mongoose](http://mongoosejs.com) para modelagem dos dados a serem gravados no banco
     - HTML e CSS (ou algum pré-processador)
     - [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/intro?hl=pt-br) (se precisar de uma API Key do Google, basta solicitar por e-mail)
